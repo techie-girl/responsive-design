@@ -1,0 +1,54 @@
+@media (min-width: 960px) and (max-width: 1281px) {
+  
+  #header1 {
+    width: 960px;
+    margin: 0 auto;
+}
+
+/* NAVIGATION BAR */
+
+header nav {
+    width: 500px;
+}
+  
+}
+
+/* 
+  Device: Desktop;
+*/
+
+@media (min-width: 768px) and (max-width: 959px) and (orientation: landscape) {
+  
+  #header1 {
+    width: 768px;
+    margin: 0 auto;
+}
+  
+/* NAVIGATION BAR */
+
+header nav {
+    width: 360px;
+}
+}
+
+/* 
+  Device: Tablet;
+*/
+
+@media (min-width: 320px) and (max-width: 767px) {
+  
+  #header1 {
+    width: 320px;
+    margin: 0 auto;
+}
+  
+/* NAVIGATION BAR */
+
+header nav {
+    width: 170px;
+}
+
+}
+/* 
+  Device: Smartphone;
+*/
